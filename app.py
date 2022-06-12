@@ -75,6 +75,7 @@ def predict101():
         if (i =="Most of the Time"):v.append(int(7))
         elif(i=="Quite Often"):v.append(int(3))
         elif(i=="Sometimes"):v.append(int(-1))
+        elif(i=="Less than Often"):v.append(int(-1))
         elif(i=="Never"):v.append(int(-3))
         elif(i=="No workout"):v.append(int(5))
         elif(i=="10-15"):v.append(int(-11))
