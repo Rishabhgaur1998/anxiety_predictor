@@ -102,7 +102,7 @@ def predict101():
     elif output == -5:
         ans_res = f"Thanks for your response. Your anxiety levels for today would be almost zero "
     elif output == 3:
-        ans_res = f"Thanks for your response. Your anxiety levels for today would be above normal "
+        ans_res = f"Thanks for your response. Your anxiety levels for today would be above normal"
     elif output == 7:
         ans_res = f"Thanks for your response. Your anxiety levels for today very high"
 
